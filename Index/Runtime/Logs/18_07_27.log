@@ -1,0 +1,117 @@
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.001215s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001359s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 125 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000620s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000737s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001849s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001994s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 186 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 220 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 154 行.
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.021522s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021659s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000843s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.000956s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000834s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001060s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004023s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001058s ]
+[ 2018-07-27T20:44:47+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001178s ]

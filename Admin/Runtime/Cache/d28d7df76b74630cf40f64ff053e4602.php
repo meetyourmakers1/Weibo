@@ -1,0 +1,30 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设置非法关键字</title>
+    <link rel="stylesheet" href="__PUBLIC__/Css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+</head>
+<body>
+    <div class="status">
+        <span>设置非法关键字</span>
+    </div>
+    <form action="<?php echo U('setFilterHandle');?>" method="post">
+        <table class="table">
+            <tr>
+                <td>需要过滤的关键字(每个关键词之间用'|'分割)</td>
+                <td>
+                    <textarea name="filter"  cols="108" rows="24"><?php echo ($filter); ?></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="保存修改" class="big-btn">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

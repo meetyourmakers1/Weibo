@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>检索用户</title>
+    <link rel="stylesheet" href="__PUBLIC__/Css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+</head>
+<body>
+    <div class="status">
+        <span>检索用户</span>
+    </div>
+    <div style="width: 390px;margin: 20px auto;">
+        <form action="__SELF__" method="get">
+            检索方式:
+            <select name="type" id="">
+                <option value="1">用户ID</option>
+                <option value="0">用户昵称</option>
+            </select>
+            <input type="text" name="search">
+            <input type="submit" value="" class="see">
+        </form>
+    </div>
+    <table class="table">
+    <if condition="isset($user) && !$user">
+        <tr>
+            <td align="center">没有检索到相关用户</td>
+        </tr>
+    <else/>
+        <tr>
+            <th>用户ID</th>
+            <th>用户昵称</th>
+            <th>用户头像</th>
+            <th>关注信息</th>
+            <th>注册时间</th>
+            <th>账号状态</th>
+            <th>操作</th>
+        </tr>
+    <foreach name="user" item="v">
+        <tr>
+            <td align="center">{$v.id}</td>
+            <td align="center">{$v.username}</td>
+            <td align="center">
+                <img width="50" height="50" src="<if condition='$v["face"]'>__ROOT__/Uploads/Face/{$v.face}<else/>__ROOT__/Public/Images/noface.gif</if>" alt="">
+            </td>
+            <td align="center">
+                <ul>
+                    <li>关注:{$v.follow}</li>
+                    <li>粉丝:{$v.fans}</li>
+                    <li>微博:{$v.weibo}</li>
+                </ul>
+            </td>
+            <td align="center">{$v.registime|date='Y-m-d H:i',###}</td>
+            <td align="center"><if condition="$v['lock']"><span style="color: red;">锁定</span><else/><span style="color: blue;">正常</span></if></td>
+            <td>
+                <if condition="$v['lock']">
+                    <a href="{:U('User/lockUser',array('id' => $v['id'],'lock' => 0))}" class="add">解除锁定</a>
+                    <else/>
+                    <a href="{:U('User/lockUser',array('id' => $v['id'],'lock' => 1))}" class="add lock">锁定用户</a>
+                </if>
+            </td>
+        </tr>
+    </foreach>
+    </if>
+    </table>
+</body>
+</html>

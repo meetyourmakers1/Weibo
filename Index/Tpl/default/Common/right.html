@@ -1,0 +1,69 @@
+<div id="right">
+            <div class="edit_tpl"><a href="" class='set_model'></a></div>
+            <!--<php>
+                $where = array('user_id' => session('user_id'));
+                $field = array('username','face80' => 'face','follow','fans','weibo','user_id');
+                $userinfo = M('userinfo') -> where($where) -> field($field) -> find();
+            </php>-->
+            <!--用户信息标签-->
+            <userinfo user-id="$_SESSION['user_id']">
+                <dl class="user_face">
+                    <dt>
+                        <a href="{:U('/'.session('user_id'))}"><img src="<if condition='$face'>__ROOT__/Uploads/Face/{$face}<else/>__PUBLIC__/Images/noface.gif</if>" width='80' height='80' alt="" /></a>
+                    </dt>
+                    <dd><a href="{:U('/'.$user_id)}">{$username}</a></dd>
+                </dl>
+                <ul class='num_list'>
+                    <li><a href="{:U('/follow/'.$user_id)}"><strong>{$follow}</strong><span>关注</span></a></li>
+                    <li><a href="{:U('/fans/'.$user_id)}"><strong>{$fans}</strong><span>粉丝</span></a></li>
+                    <li class='noborder'><a href="{:U('/'.$user_id)}"><strong>{$weibo}</strong><span>微博</span></a></li>
+                </ul>
+            </userinfo>
+            <!--用户信息标签-->
+            <div class="maybe">
+                <fieldset>
+                    <!--<php>
+                        $follow = M('follow_fans');
+                        $where = array('fans' => session('user_id'));
+                        $follows = $follow -> where($where) -> field('follow') -> select();
+                        foreach($follows as $k => $v){
+                            $follows[$k] = $v['follow'];
+                        }
+                        $sql = 'SELECT `username`,`face50` AS `face`,`user_id`,COUNT(f.`follow`) AS
+                                `count` FROM `ningbo_follow_fans` f LEFT JOIN `ningbo_userinfo` u
+                                ON f.`follow` = u.`user_id` WHERE f.`fans` IN ('  . implode(',',$follows) .
+                                ') AND f.`follow` NOT IN (' . implode(',',$follows) . ') AND f.`follow` <>
+                                ' . session('user_id') .' GROUP BY f.`follow` ORDER BY `count` DESC LIMIT 4 ';
+                        $friend = $follow -> query($sql);
+                    </php>-->
+                    <legend>可能感兴趣的人</legend>
+                    <ul>
+                        <!--<maybe>自定义标签-->
+                        <maybe user-id="$_SESSION['user_id']">
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <a href="{:U('/'.$user_id)}"><img src="<if condition='$face'>__ROOT__/Uploads/Face/{$face}<else/>__PUBLIC__/Images/noface.gif</if>" width='30' height='30'/></a>
+                                    </dt>
+                                    <dd><a href="{:U('/'.$user_id)}">{$username}</a></dd>
+                                    <dd>共{$v.count}个共同好友</dd>
+                                </dl>
+                                <span class='heed_btn add-fl' userId="{$user_id}"><strong>+&nbsp;</strong>关注</span>
+                            </li>
+                        </maybe>
+                        <!--<maybe>自定义标签-->
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="post">
+                <div class='post_line'>
+                    <span>公告栏</span>
+                </div>
+                <ul>
+                    <li><a href="">google</a></li>
+                    <li><a href="">firefox</a></li>
+                    <li><a href="">baidu</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--==========右侧==========-->

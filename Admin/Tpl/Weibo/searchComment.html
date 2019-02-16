@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>检索评论</title>
+    <link rel="stylesheet" href="__PUBLIC__/Css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+</head>
+<body>
+    <div class="status">
+        <span>检索评论</span>
+    </div>
+    <div style="width: 302px;text-align: center;margin: 20px auto;">
+        <form action="__SELF__" method="get">
+            检索关键字:
+            <input type="text" name="search"/>
+            <input type="submit" value="" class="see">
+        </form>
+    </div>
+    <table class="table">
+    <if condition="isset($content) && !empty($content)">
+        <tr>
+            <td align="center">没有检索到相关的评论</td>
+        </tr>
+    <else/>
+        <tr>
+            <th>评论ID</th>
+            <th>评论内容</th>
+            <th>评论用户</th>
+            <th>评论时间</th>
+            <th>操作</th>
+        </tr>
+    <foreach name="comment" item="v">
+        <tr>
+            <td align="center">{$v.id}</td>
+            <td>{$v.content}</td>
+            <td align="center">{$v.username}</td>
+            <td align="center">{$v.time|date='Y-m-d H:i',###}</td>
+            <td align="center">
+                <a href="{:U('delComment',array('id' => $v['id'],'weibo_id' => $v['weibo_id']))}" class="del"></a>
+            </td>
+        </tr>
+    </foreach>
+    </if>
+    </table>
+</body>
+</html>

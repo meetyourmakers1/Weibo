@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>检索微博</title>
+    <link rel="stylesheet" href="__PUBLIC__/Css/common.css">
+    <script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/common.js"></script>
+</head>
+<body>
+    <div class="status">
+        <span>检索微博</span>
+    </div>
+    <div style="width: 390px;margin: 20px auto;">
+        <form action="__SELF__" method="get">
+            检索关键字:
+            <input type="text" name="search">
+            <input type="submit" value="" class="see">
+        </form>
+    </div>
+    <table class="table">
+        <if condition="isset($weibo) && !$weibo">
+            <tr>
+                <td align="center">没有检索到相关微博</td>
+            </tr>
+        <else/>
+            <tr>
+                <th>微博ID</th>
+                <th>作者</th>
+                <th>微博内容</th>
+                <th>微博类型</th>
+                <th>统计信息</th>
+                <th>发布时间</th>
+                <th>操作</th>
+            </tr>
+        <foreach name="weibo" item="v">
+            <tr>
+                <td align="center">{$v.id}</td>
+                <td align="center">{$v.username}</td>
+                <td>{$v.content}</td>
+                <td align="center">
+                    <if condition="$v['isturn']">
+                        转发
+                    <elseif condition='$v["picture"]'/>
+                        <a href="__ROOT__/Uploads/Picture/{$v.picture}" target="_blank">查看图片</a>
+                    <else/>
+                        原创
+                    </if>
+                </td>
+                <td align="center">
+                    <ul>
+                        <li>转发:{$v.turn}</li>
+                        <li>收藏:{$v.keep}</li>
+                        <li>评论:{$v.comment}</li>
+                    </ul>
+                </td>
+                <td align="center">{$v.time|date='Y-m-d H:i',###}</td>
+                <td align="center">
+                    <a href="{:U('delWeibo',array('id' => $v['id'],'user_id' => $v['user_id']))}" class="del"></a>
+                </td>
+            </tr>
+        </foreach>
+        </if>
+    </table>
+</body>
+</html>
